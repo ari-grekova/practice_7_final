@@ -86,10 +86,6 @@ avg_python = total_python/student_count
 avg_english = total_english/student_count
 
 
-print(f"Середній бал з математики: {round(avg_math,2)}")
-print(f"Середній бал з Python: {round(avg_python,2)}")
-print(f"Середній бал з англійської: {round(avg_english,2)}")
-print(f"Найкращий студент: {best_student_name} ({(best_avg_score,2)})")
 
 # ============================================================
 # Крок 4. Збережіть результат у .txt файл
